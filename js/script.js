@@ -31,7 +31,7 @@ function myButtonClicked() {
   const negative = parseInt(document.getElementById("slider").value)
   const neutral = parseInt(document.getElementById("slider").value)
   
-  if (slider.value >= 0) {
+  if (slider.value > 0) {
     document.getElementById("number").innerHTML = "Number is " + positive + " positive"
   }
 
@@ -39,7 +39,7 @@ function myButtonClicked() {
     document.getElementById("number").innerHTML = "Number is " + negative + " negative"
   }
 
-  if (slider.value == 0) {
+  else if (slider.value == 0) {
     document.getElementById("number").innerHTML = "Number is " + neutral + " neutral"
   }
 }
