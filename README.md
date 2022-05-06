@@ -1,4 +1,4 @@
-# ICS2O-template-HTML
+# Unit5-02-JS
 
 [![GitHub's Super Linter](https://github.com/Batuhan-Durhan/Unit5-02-JS/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/Batuhan-Durhan/Unit5-02-JS/actions)
 
